@@ -44,7 +44,7 @@ function parseInput(data) {
 
 
     seenEdges.add(key);
-    validEdges.push({ from, to });
+    validEdges.push({ parent: from, child: to });
   }
 
   return { validEdges, invalidEntries, duplicateEdges };

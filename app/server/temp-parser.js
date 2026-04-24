@@ -29,3 +29,8 @@
 //   { parent: 'A', child: 'D' }, { parent: 'B', child: 'D' }
 // ];
 // console.log(JSON.stringify(buildTrees(edges), null, 2));
+
+// const { parseInput } = require('./src/utils/parseNodes');
+// const raw = ['A->B','A->C','B->D','X->Y','Y->Z','Z->X'];
+// const { validEdges } = parseInput(raw);
+// console.log(JSON.stringify(validEdges, null, 2));
